@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Project Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="cart_container">
+        <div class="cart_header">
+            <p>Cart</p>
+        </div><!--le header avec le mot cart en haut-->
+
+        <div class="inside_the_cart">
+
+            <div class="items">
+                <span>#1</span>
+                <p>Nike <br>Air</p><br>
+                <input class="quantity" value="0" type="text"></span>
+                <button class="plus_button" type="button">+</button>
+                <button class="minus_button" type="button">-</button>
+                <button class="heart" type="button"><i class="fa-regular fa-heart"></i></button>
+                <span class="price">100$</span>
+                <button class="delete_quantity" type="reset">Delete</button>
+            </div><!--le premier item-->
+
+            <div class="items">
+                <span>#2</span>
+                <p>Adidas<br>Superstar</p>
+                <input class="quantity" value="0" type="text"></span>
+                <button class="plus_button" type="button">+</button>
+                <button class="minus_button" type="button">-</button>
+                <button class="heart" type="button"><i class="fa-regular fa-heart"></i></button>
+                <span class="price">120$</span>
+                <button class="delete_quantity" type="button">Delete</button>
+            </div><!--le second item-->
+
+            <div class="items">
+                <span>#3</span>
+                <p>Puma St<br>Runner</p>
+                <input class="quantity" value="0" type="text"></span>
+                <button class="plus_button" type="button">+</button>
+                <button class="minus_button" type="button">-</button>
+                <button class="heart" type="button"><i class="fa-regular fa-heart"></i></button>
+                <span class="price">130$</span>
+                <button class="delete_quantity" type="button">Delete</button>
+            </div><!--le troisième item-->
+
+            <div class="total_price">
+                <p>
+                    Total :
+                    <span class="totals">0$</span>
+                </p>
+            </div><!--le le prix total item-->
+
+        </div><!--en dessous du header-->
+
+    </div><!--La page du shooping cart-->
+    <script src="main.js"></script>
+</body>
+</html>
