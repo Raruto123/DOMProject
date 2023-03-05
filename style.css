@@ -1,0 +1,87 @@
+/* div{
+    border: 1px dashed black;
+} */
+/* @keyframes heart_animate {
+    0% {
+        background-color: black;
+    }
+    100%{
+        background-color: red;
+    }
+} */
+/* .heart.heart_animate {
+    animation-name: heart_animate;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+} */
+.cart_container{
+    position: relative;
+}
+.cart_header{
+    background-color: #184048;
+    padding-left: 12px;
+    font-size:30px;
+    border-bottom: solid black;
+    color: #758E95;
+    display: flex;
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    background-color: #1D434A;
+    color: #758E95;
+    border-bottom: solid black;
+}
+.items .plus_button, .items .minus_button{
+    background-color: #1D434A;
+    color: #BD961B;
+    border: 1px solid #BD961B;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.items .heart{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border: 1px solid ;
+    border-radius: 3px;
+}
+
+.items .delete_quantity{
+    width: 50px;
+    height: 30px;
+    background-color: #BD961B;
+    border: 1px solid #BD961B ;
+    border-radius: 3px;
+    color: white;
+}
+
+.items .plus_button:hover, .items .minus_button:hover, .items .heart:hover, .items .delete_quantity:hover{
+    cursor: pointer;
+}
+
+.total_price{
+    background-color: #1D434A;
+    color: #758E95;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-right: 130px;
+}
+.total_price .totals{
+    font-weight: bolder ;
+}
+
+.items .quantity{
+    background-color: #1D434A;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-weight:300;
+    color: #758E95;
+}
